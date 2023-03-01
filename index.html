@@ -10,54 +10,6 @@
         <link rel="stylesheet" type="text/css" href="css/nekotora.99cf6f8c.css">
         </head>
         <body> 
-<style>
- .toast-bottom-center {
-  position: absolute;
-  left: 30px;
-  right:10px;
-  top: 20px;
-}
-   </style>
-   <script type="text/javascript">
-    function today() {
-        var today=new Date();
-        var str="";
-        str+=today.getFullYear()+"-";
-        var month=today.getMonth()+1;//返回值是 0（一月） 到 11（十二月） 之间的一个整数。
-        if(month<10){
-            str+="0";
-        }
-        str+=month+"-";
-        var day=today.getDate();//返回值是 1 ~ 31 之间的一个整数
-        if(day<10){
-            str+="0";
-        }
-        str+=day;
-        return str;
-    }
-    function daysDistance(date1, date2) {
-        date1 = Date.parse(date1);
-        date2 = Date.parse(date2);
-        var ms= Math.abs(date2 - date1);
-        var days = Math.floor(distance / (24 * 3600 * 1000));
-        return days ;
-    };
-    const year = new Date().getFullYear();
-    var a;
-    if (year <= 2024) {
-        a = "一个小学生";
-    }else if (year >= 2025 && year <= 2027) {
-        a = "一个初中生";
-    }else if (year >= 2028 && year >= 2030) {
-        a = "一个准备高考的熬夜生物";
-    }else{
-        a = "本网站已经运行了" + daysDistance("2022-01-18",today());
-    }
-    window.onload = function() {
-        document.getElementById("student").innerHTML = "你好，这里是鑫鑫 <sup>Xinxin</sup>，" + a;
-    }
-   </script>
-
         <div class="background">  
         <canvas id="startrack"></canvas> 
         <div class="cover"></div> </div>
@@ -84,9 +36,9 @@
             </div> </li> <li> <p>假期在线人数</p>
             <div class="progress"> <div style="width:70%;"></div>
             <span>看看，还是假期好~</span> </div> </li> 
-            <li> <p>队长日常摸鱼时间</p>
+            <li> <p>队长摸鱼时间</p>
             <div class="progress"> 
-            <div style="width:200%;">
+            <div style="width:100%;">
             </div><span>别让等待，成为遗憾QAQ</span> </div> </li> 
             <li> <p>队内二次元浓度</p> <div class="progress"> 
             <div style="width:60%;"></div>
