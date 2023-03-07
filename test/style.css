@@ -1,0 +1,12 @@
+#player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#icon {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.5s;
+}
