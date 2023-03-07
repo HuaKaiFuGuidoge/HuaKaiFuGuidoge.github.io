@@ -1,0 +1,96 @@
+/* 背景图片设置 */
+body {
+  background-image: url('./picture.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* 按钮css动画与颜色 */
+/* 按钮的常规样式规则 */
+button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  /* 按钮处于hover状态时的样式规则，包括动画样式规则 */
+  button:hover {
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* 过渡效果样式规则，使按钮从1倍放大到1.2倍 */
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transform: scale(1.1); /* Safari 3.1 to 6.0 */
+    transform: scale(1.1);
+  }
+
+/* 按钮排列 */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make the ul a flex container */
+    justify-content: space-between; /* Spaced evenly between items */
+    align-items: center; /* Vertically center items within the container */
+    padding: 0 25% /* Window spacing */
+  }
+    li {
+    flex: 1; /* Make the list items share the available space equally */
+    text-align: center /* Center the button text */
+  }
+    button {
+    display: block;
+    margin: 0 1.5%; /* Button spacing */
+    width: calc(50% - 1.5%); /* Button width, minus the margin */
+  }
+
+  /* 大标题 */
+  .rainbow {
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rainbow 2s linear infinite;
+    -webkit-animation: rainbow 2s linear infinite;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      color: red;
+    }
+    10% {
+      color: orange;
+    }
+    20% {
+      color: yellow;
+    }
+    30% {
+      color: green;
+    }
+    40% {
+      color: blue;
+    }
+    50% {
+      color: indigo;
+    }
+    60% {
+      color: violet;
+    }
+    70% {
+      color: red;
+    }
+    80% {
+      color: orange;
+    }
+    90% {
+      color: yellow
