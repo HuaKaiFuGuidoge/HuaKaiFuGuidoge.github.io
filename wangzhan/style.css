@@ -1,6 +1,6 @@
 /* 背景图片设置 */
 body {
-  background-image: url('./picture.jpg');
+  background-image: url('https://api.vvhan.com/api/bing?size=100%x100%');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -12,7 +12,7 @@ button {
     background-color: #ffffff;
     border: none;
     color: rgb(0, 0, 0);
-    padding: 16px 32px;
+    padding: 16px 35%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -63,6 +63,10 @@ button {
     animation: rainbow 2s linear infinite;
     -webkit-animation: rainbow 2s linear infinite;
   }
+
+  button {
+      font-size: 5%;
+  }
   
   @keyframes rainbow {
     0% {
@@ -93,4 +97,5 @@ button {
       color: orange;
     }
     90% {
-      color: yellow
+      color: yellow；
+    }
