@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,9 @@
   <link rel="icon" href="./img/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" type="text/css" href="./other/pop_up_window/css.css">
 </head>
-<body>
+<body onload="showPopup()">
   <header>
     <nav>
       <ul>
@@ -39,5 +40,16 @@
     <p>
         页面顶端快手和B站均为联系方式
     </p>
+  <div id="overlay">
+    <div class="popup">
+      <p class="popup_title">提示</p>
+      <p class="popup_content">查看部分代码来源</p>
+      <div class="popup_btn">
+        <a href="./quote.html"><button class="cancelBtn">前往</button></a>
+        <button class="confirmBtn" onclick="hidePopup()">取消</button>
+      </div>
+    </div>
+  </div>
+  <script src="./other/pop_up_window/js.js"></script>
 </body>
 </html>

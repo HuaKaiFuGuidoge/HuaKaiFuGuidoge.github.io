@@ -1,11 +1,15 @@
-/* Reset styles */
+body {
+  background-image: url('../img/background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Page styles */
   body {
     font-family: Arial, sans-serif;
     color: #333;
