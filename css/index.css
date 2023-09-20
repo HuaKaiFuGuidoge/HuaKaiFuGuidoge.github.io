@@ -88,3 +88,16 @@ p {
     transition-duration:0.5s ;
     transform: scale(1.2);
 }
+
+.quote_button {  
+    padding: 10px 20px;  
+    background-color: #4c9baf; /* Green */  
+    border: none;  
+    color: white;   
+    text-decoration: none;  
+    display: inline-block;  
+    font-size: 16px;  
+    margin: 4px 2px;  
+    transition-duration: 0.4s;  
+    cursor: pointer;  
+  }  

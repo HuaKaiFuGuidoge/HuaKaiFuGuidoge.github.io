@@ -9,14 +9,14 @@
   <link rel="stylesheet" type="text/css" href="./css/index.css">
   <link rel="stylesheet" type="text/css" href="./other/pop_up_window/css.css">
 </head>
-<body onload="showPopup()">
+<body>
   <header>
     <nav>
       <ul>
         <li><a href="index.html">首页</a></li>
         <li><a href="https://space.bilibili.com/495772936">bilibili</a></li>
         <li><a href="https://www.kuaishou.com/profile/3xtqiscqguxni3u">快手</a></li>
-        <li><a href="wangzhan.html">其他</a></li>
+        <li><a href="wangzhan.html">导航</a></li>
       </ul>
     </nav>
   </header>
@@ -40,10 +40,13 @@
     <p>
         页面顶端快手和B站均为联系方式
     </p>
+    <h2>其他</h2>
+    <br>
+    <button class="quote_button" onclick="showPopup()">其他</button>
   <div id="overlay">
     <div class="popup">
       <p class="popup_title">提示</p>
-      <p class="popup_content">查看部分代码来源</p>
+      <p class="popup_content">查看其他部分</p>
       <div class="popup_btn">
         <a href="./quote.html"><button class="cancelBtn">前往</button></a>
         <button class="confirmBtn" onclick="hidePopup()">取消</button>
