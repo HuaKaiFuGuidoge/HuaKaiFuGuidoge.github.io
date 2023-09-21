@@ -1,17 +1,4 @@
 
-/* 定义默认规则 */
-*{
-    box-sizing:border-box;
-    padding: 0px;
-    margin: 0px;
-}
-
-/* body背景颜色设置 */
-body {
-    background-color: rgb(200, 200, 200);
-}
-
-/* 定义背景样式 */
 .box {
     width: 95%;
     height: 100%;
@@ -23,56 +10,30 @@ body {
     border-radius: 5px;
 }
 
-/* 定义logo位置 */
-.logo-box {
-    width: 75vw;
-    margin: auto;
-}
-.logo-box:after {
-    content: " ";
-    display: block;
-    clear: both;
-}
-.logo-img {
-    float: left;
-    width: 15vw;
-
-}
-.logo-h1 {
-    float: left;
-    font-size: 10vw;
-    color: #000000;
+.logo_title {
+    display: block; 
+    margin-left: 20%;
+    margin-right: auto;
+    width: 50%;
 }
 
-/* 定义分割线 */
 hr {
     width: 95%;
     margin: 10px auto;
     color: rgb(200, 200, 200);
 }
 
-/* 定义副标题 */
 h2 {
     font-size: 5vw;
     text-align: center;
     margin: 5px auto;
 }
 
-/* 定义文本内容 */
 p {
     font-size: 2vw;
     margin: 10px auto;
 }
 
-/* 功能区布局 */
-.button-box {
-    width: 90vw;
-    height:50px ;
-    display: flex;
-    margin-right: 0vw;
-
-/* 按钮动画，样式 */
-}
 .button-box button {
     width: 20vw;
     height: 50px;
@@ -91,7 +52,7 @@ p {
 
 .quote_button {  
     padding: 10px 20px;  
-    background-color: #4c9baf; /* Green */  
+    background-color: #4c9baf;
     border: none;  
     color: white;   
     text-decoration: none;  

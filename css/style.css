@@ -3,42 +3,41 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  margin-top: 60px
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f2f2f2;
-  }
-  
+
   header {
     background-color: #333;
     color: #fff;
     padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;  
+    left: 0;
   }
   
-  nav ul {
+  .ul_header {
     list-style: none;
     display: flex;
     justify-content: space-between;
   }
   
-  nav ul li {
+  .li_header {
     margin-right: 1rem;
   }
   
-  nav ul li a {
+  .a_header{
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
   }
   
-  nav ul li a:hover {
+  .a_header:hover {
     color: #00bfff;
   }
   
@@ -49,17 +48,4 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-  }
-  
-  .box img {
-    width: 50%;
-    margin: 0 auto;
-  }
-  
-  .box .title {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-    width: 90%;
-    margin: 0 auto;
   }
