@@ -29,25 +29,9 @@ h2 {
     margin: 5px auto;
 }
 
-p {
+.p {
     font-size: 2vw;
     margin: 10px auto;
-}
-
-.button-box button {
-    width: 20vw;
-    height: 50px;
-    border-radius: 15px;
-    margin-left: 7.5vw ;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 2vw;
-}
-.button-box button:hover {
-    color: #ffffff;
-    background-color: #000000;
-    transition-duration:0.5s ;
-    transform: scale(1.2);
 }
 
 .quote_button {  
