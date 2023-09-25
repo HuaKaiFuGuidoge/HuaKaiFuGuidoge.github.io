@@ -24,16 +24,6 @@
   text-align: center;  
 }  
   
-/* 在小屏幕下调整样式 */  
-@media screen and (max-width: 600px) {  
-  .popup {  
-    max-width: 80vw;
-    min-width: 40vw;
-    height: auto;
-    margin: 20vh auto;  
-  }  
-}
-  
 /* 弹出框的标题 */  
 .popup_title {  
   font-size: 30px;
@@ -55,8 +45,8 @@
 /* 弹出框的按钮 */  
 .popup_btn button {  
   color: #778899;  
-  max-width: 30%;
-  min-width: 20%;  
+  max-width: 45%;
+  min-width: 25%;  
   height: 40px;  
   cursor: pointer;  
   border: solid 1px #cccccc;  
@@ -64,4 +54,33 @@
   margin: 5px 10px;  
   color: #ffffff;  
   background-color: #337ab7;  
+}
+
+/* 在小屏幕下调整样式 */  
+@media screen and (max-width: 600px) { 
+  .popup { 
+    background-color: #ffffff;  
+    max-width: 80vw;
+    min-width: 40vw;
+    height: 240px;
+    border-radius: 5px;  
+    margin: 20vh auto; 
+    text-align: center; 
+  }
+
+  .popup_btn {  
+    margin: 5% auto; 
+  }
+
+  .popup_btn button {  
+    color: #778899;  
+    min-width: 35%;  
+    height: 40px;  
+    cursor: pointer;  
+    border: solid 1px #cccccc;  
+    border-radius: 5px;  
+    margin: 5px 10px;  
+    color: #ffffff;  
+    background-color: #337ab7;  
+  }
 }
