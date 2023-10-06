@@ -43,7 +43,7 @@
         align-items: center;      
         font-size: 16px;      
         position: fixed;
-        top: 90%;
+        top: 85%;
         right: 3%;      
         transition: transform 0.5s;     
     } 
