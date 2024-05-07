@@ -35,7 +35,7 @@
                 }, time)
             } else if (/Android/.test(navigator.userAgent)) {
                 setTimeout(() => {
-                    const intentURI = `intent://${gameURLScheme}#Intent;package=com.tencent.tmgp.call_of_duty_mobile;scheme=${gameURLScheme};end`
+                    const intentURI = `intent://${gameURLScheme}#Intent;package=com.tencent.tmgp.cod;scheme=${gameURLScheme};end`
                     window.location.href = intentURI
                     
                     redirectToGooglePlay()
